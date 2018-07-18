@@ -10,4 +10,4 @@ if [ ! -d "${DESTDIR}" ] ; then
 	exit 1
 fi
 
-cp -fRv "${ROOTDIR}/trunk/" "${DESTDIR}/trunk/"
+cp -fRv "${ROOTDIR}/trunk/" "${DESTDIR}/"
