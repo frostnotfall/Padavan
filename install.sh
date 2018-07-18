@@ -11,4 +11,3 @@ if [ ! -d "${DESTDIR}" ] ; then
 fi
 
 cp -fRv "${ROOTDIR}/trunk/" "${DESTDIR}/trunk/"
-cp -fRv "${ROOTDIR}/trunk/.config" "${DESTDIR}/trunk/.config"
